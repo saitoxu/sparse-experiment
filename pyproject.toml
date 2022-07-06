@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sparse-experiment"
+version = "0.1.0"
+description = ""
+authors = ["Yosuke Saito <yosuke.saito1202@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.0"
+pandas = "^1.4.3"
+scikit-learn = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
